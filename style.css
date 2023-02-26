@@ -1,0 +1,104 @@
+/* Estilos para todo o documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #149a33;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para o conteúdo principal */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section li {
+    margin-bottom: 10px;
+  }
+  
+  section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section label {
+    margin-bottom: 5px;
+  }
+  
+  section input,
+  section textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  section input:focus,
+  section textarea:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  section button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  section button:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+  }

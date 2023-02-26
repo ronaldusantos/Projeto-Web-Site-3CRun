@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>3CRun Assessoria Esportiva - Home</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+				<li><a href="treinos.html">Treinos</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="banner">
+			<h1>3CRun Clube de Corrida</h1>
+			<p>Corra com a gente e melhore sua performance!</p>
+		</section>
+
+		<section id="sobre">
+			<h2>Sobre o Clube</h2>
+			<p>O Clube de Corrida é um grupo de corredores que se reúne regularmente para treinar e participar de corridas de rua. Nós oferecemos treinos em grupo, acompanhamento individualizado e apoio para iniciantes e corredores experientes.</p>
+		</section>
+
+		<section id="treinos">
+			<h2>Nossos Treinos</h2>
+			<p>Nossos treinos são realizados em locais variados e com diferentes intensidades para atender aos diferentes níveis de condicionamento físico dos participantes. Oferecemos treinos de corrida de rua, treinos em esteira, treinos de velocidade e treinos de resistência.</p>
+		</section>
+        <section id="Horarios">
+            <h2>Turmas e Horários </h2>
+            <table>
+                <tr>
+                  <th>N° turma</th>
+                  <th>Sigla </th>
+                  <th>Local</th>
+                  <th>Bairro</th>
+                  <th>Horários</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>CT0N1</td>
+                  <td>App Zoom Messenger</td>
+                  <td>On-line</td>                
+                  <td>Seg. à Sex. - 21h</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>CT1M1</td>
+                  <td>Praça Virginia Reis Tude</td>
+                  <td>Verde Horizonte</td>                  
+                  <td>Ter. Qui. e Sex. - 5h30</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>CT2M1</td>
+                    <td>Praça das Amendoeiras</td>
+                    <td>Gleba B</td>                    
+                    <td>Seg. e Qua. - 5h30</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>CT2N1</td>
+                    <td>Praça das Amendoeiras</td>
+                    <td>Gleba B</td>             
+                    <td>Seg. e Qua. - 19h</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>CT3N1</td>
+                    <td>Praça do Ponto Certo</td>
+                    <td>Ponto Certo</td>
+                    <td>Ter. e Qui. - 19h</td>
+                </tr>               
+              </table>
+              
+        </section>
+
+		<section id="contato">
+			<h2>Entre em Contato</h2>
+			<p>Para se juntar ao Clube de Corrida ou obter mais informações, entre em contato conosco:</p>
+			<form action="enviar_email.php" method="post">
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" name="nome" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="mensagem">Mensagem:</label>
+				<textarea id="mensagem" name="mensagem" required></textarea>
+
+				<button type="submit">Enviar</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 3CRun Assessoria Esportiva - Todos os direitos reservados</p>
+	</footer>
+</body>
+</html>
